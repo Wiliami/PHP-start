@@ -11,6 +11,6 @@ echo $_SESSION["nome"];
 
 session_destroy($_SESSION["nome"]);
 
-echo $_SESSION["nome"];
+echo $_SESSION["nome"];     
 
 ?>
