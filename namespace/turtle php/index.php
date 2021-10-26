@@ -14,10 +14,9 @@ require 'Colaboradores/Cadastro.php';
 $prod = new \Colaboradores\Cadastro;
 $prod->setName("Teste123");
 $prod->setEmail("teste@gmail.com");
-$prod->setSenha("123456")
+$prod->setSenha("123456");
 
 
 
-//
 
 ?>
