@@ -33,31 +33,4 @@ $Delete = new Delete();
 $Delete->ExeDelete("users", "WHERE user_id = :id", "id={$Id}");
 // var_dump($Read->getResult());
 
-
-//$dbphp8 = "dbphp8";
-// $usuario="root";
-// $senha="";
-
-
-// $conn = new PDO("mysql: host=127.0.0.1; dbname=dbphp8 ", $usuario, $senha);
-
-// $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(:LOGIN, :PASSWORD)");
-
-
-
-// $login = "jose";
-// $password = "123456789"; 
-
-
-// $stmt->bindParam(":LOGIN", $login);
-// $stmt->bindParam(":PASSWORD", $password);
-
-// try {
-//     $stmt->execute();
-// } catch (PDOException $e) {
-//     var_dump($e);
-// }
-
-
-
 ?>
