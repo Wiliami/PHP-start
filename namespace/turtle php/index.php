@@ -12,9 +12,16 @@ require 'Colaboradores/Cadastro.php';
 
 
 $prod = new \Colaboradores\Cadastro;
-$prod->setName("Teste123");
-$prod->setEmail("teste@gmail.com");
-$prod->setSenha("123456");
+
+
+
+// public function __toString() {
+//     return json_encode(array(
+//             "name" => $this -> getNome(),
+//             "email" => $this -> getEmail(),
+//             "senha" => $this -> getSenha(),
+//     ));
+// }
 
 
 
