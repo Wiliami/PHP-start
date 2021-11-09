@@ -1,8 +1,9 @@
-<?php 
+<?php
+
 require '_app/Config.inc.php';
 
 //CADASTRAR
-$DataCreate['user_name'] = 'Dudu';
+$DataCreate['user_name'] = 'Carlos';
 $DataCreate['user_lastname'] = 'Sampaio';
 $DataCreate['user_create_date'] = date('Y-m-d H:i:s');
 
@@ -22,7 +23,7 @@ $DataUpdate['user_update_date'] = date('Y-m-d H:i:s');
 $Update = new Update();
 
 
-$Id = 2;
+$Id = 3;
 $Update->ExeUpdate("users", $DataUpdate, "WHERE user_id = :id", "id={$Id}");
 //Check::var_dump_json($Update->getResult());
 

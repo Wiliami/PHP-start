@@ -3,7 +3,7 @@
 const HOST = '127.0.0.1';
 const USER = 'root';
 const PASS = '';
-const DBSA = 'dbphp8';
+const DBSA = '';
 
 function MyAutoLoad($Class) {
     $cDir = ['Conn', 'Helpers'];
