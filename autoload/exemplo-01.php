@@ -1,11 +1,15 @@
 <?php
-// spl_autoload_register(function($nomeClass) {
-// });
+require_once("nomeClass.php");
 
-require_once("DelRey.php");
+spl_autoload_register(function($nomeClass) {
 
-$carro = new DelRey();
-$carro->acelerar(80); 
+    $carro = new DelRey();
+    $carro->acelerar(80);
+    
+
+
+});
+
 
 // try {
   
