@@ -1,11 +1,7 @@
 <?php 
 
-echo "ok";
-
 function incluirClasses($nameClasse) {
-
-    if (file_exists($nameClasse. ".php") === true) {
-        
+    if (file_exists($nameClasse. ".php") === true) { 
         require_once($nomeClasse. ".php");
     }
 }
@@ -18,8 +14,5 @@ spl_autoload_register(function($nameClasse) {
     }
 });
 
-
 $carro = new DelRey();
 $carro -> acelerar(80);
-
-?>
