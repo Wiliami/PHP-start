@@ -1,16 +1,11 @@
 <?php 
 
-
 class DelRey extends Automovel {
 
-    public function empurrar() {
-        
+    public $velocidade;
+
+    public function empurrar($velocidade) {
+        $this->velocidade = $velocidade;
     }
 }
-
-
-
-
-
-
 ?>
