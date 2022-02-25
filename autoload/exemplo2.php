@@ -6,7 +6,6 @@ function incluirClasses($nameClasse) {
     }
 }
 
-
 spl_autoload_register("incluirClasses");
 spl_autoload_register(function($nameClasse) {
     if (file_exists("Abstratas" . DIRECTORY_SEPARATOR . $nameClasse. " .php") === true) {
