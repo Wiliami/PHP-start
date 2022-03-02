@@ -5,7 +5,6 @@ abstract class Animal {
     public function falar() {
         return "Som";
     }
-
     public function mover() {
         return "Anda";
     }
@@ -63,6 +62,3 @@ $ave = new Passaro();
 
 echo $ave -> falar() . "<br />";
 echo $ave -> mover() . "<br />";
-
-
-?>
