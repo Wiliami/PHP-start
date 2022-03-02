@@ -15,4 +15,4 @@ if(file_exists($Location) && !is_dir($Location)) {
 } else {
     require_once('./views/pages/404.php');
 }
-
+?>

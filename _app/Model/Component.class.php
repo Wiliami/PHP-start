@@ -1,5 +1,5 @@
 <?php
-class Components {
+class Component {
     public function getHeadHtml() {
         return '
         <!DOCTYPE html>
