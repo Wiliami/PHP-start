@@ -6,7 +6,7 @@ const PASS = '';
 const DBSA = '';
 
 function MyAutoLoad($Class) {
-    $cDir = ['Conn', 'Helpers', 'Models'];
+    $cDir = ['Conn', 'Helpers', 'Model'];
     $iDir = null;
     foreach($cDir as $dirName) {
         $File = __DIR__ . '/' . $dirName . '/' . $Class. '.class.php';
