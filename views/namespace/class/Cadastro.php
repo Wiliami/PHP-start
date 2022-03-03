@@ -6,35 +6,35 @@ class Cadastro {
     private $email;
     private $senha;
 
+    // métodos getters
     public function getNome(): string {
-        return $this -> nome;
+        return $this->nome;
     }
-
     public function getEmail(): string {
-        return $this -> email;
+        return $this->email;
     }
-
     public function getSenha(): string {
-        return $this -> senha;
+        return $this->senha;
     }
 
+
+    // métodos setters
     public function setNome($nome) {
-        $this -> nome = $nome;
+        $this->nome = $nome;
     }
-
     public function setEmail($email) {
-        $this -> email = $email;
+        $this->email = $email;
     }
-
     public function setSenha($senha) {
-        $this -> senha = $senha;
+        $this->senha = $senha;
     }
 
+    
     public function __toString() {
         return json_encode(array(
-                "nome" => $this -> getNome(),
-                "email" => $this -> getEmail(),
-                "senha" => $this -> getSenha(),
+                "nome" => $this->getNome(),
+                "email" => $this->getEmail(),
+                "senha" => $this->getSenha(),
         ));
     }
 }
