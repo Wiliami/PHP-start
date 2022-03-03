@@ -1,15 +1,10 @@
 <?php 
-
-
 // spl_autoload_register(function($nameClass){
 
 //     $dirClass = "class"; 
 //     $filename = $dirClass . DIRECTORY_SEPARATOR . $nameClass. ".php";
 
 // });
-
-
-
 
 function MyAutoLoad($Class) {
     $cDir = ['Cadastro', 'Helpers']; // nome das pastas que eu quero usar...

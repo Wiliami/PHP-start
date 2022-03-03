@@ -1,14 +1,13 @@
 <?php 
 
-require_once("config.php"); // isso faz chamar as classes dentro do meu projeto (require: eu tengo certeza que o arquivo exita);
+require_once("config.php"); // isso faz chamar as classes dentro do meu projeto (require: eu tenho certeza que o arquivo existe);
 
-$cad = new Cadastro();
+$Cadastro = new Cadastro();
 
+$Cadastro ->setNome("Julio César");
+$Cadastro ->setEmail("juliocesar@gmail.com");
+$Cadastro ->setSenha("123456");
 
-$cad -> setNome("Julio César");
-$cad -> setEmail("juliocesar@gmail.com");
-$cad -> setSenha("123456");
-
-echo ($cad);
+echo ($Cadastro);
 
 ?>

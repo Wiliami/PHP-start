@@ -39,5 +39,4 @@ class Cadastro {
     }
 }
 
-// cheio de dívida esse
 ?>
