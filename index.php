@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '_app/Config.in.php';
+require_once '_app/Config.inc.php';
 
 $getURL = strip_tags(trim(filter_input(INPUT_GET, 'url', FILTER_DEFAULT)));
 $setURL = (empty($getURL) ? 'index' : $getURL);
