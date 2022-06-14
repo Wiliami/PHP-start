@@ -1,9 +1,6 @@
 <?php
 
-const HOST = '';
-const USER = '';
-const PASS = '';
-const DBSA = '';
+require_once __DIR__ . '/ENV.php';
 
 function MyAutoLoad($Class) {
     $cDir = ['Conn', 'Helpers', 'Model'];

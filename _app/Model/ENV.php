@@ -5,4 +5,5 @@ const PASS = '';
 const DBSA = '';
 
 
-const BASE = 'http://localhost/php-start/';
+const BASE = 'http://localhost/www.php_start.com';
+?>
