@@ -23,7 +23,8 @@ spl_autoload_register('MyAutoLoad');
  * @param string $ErrLine
  */
 function error_handler($ErrNo, $ErrMsg, $ErrFile, $ErrLine) {
-    echo "<div class='alert alert-success alert-dismissable'><button aria-hidden='true' data-dismiss='alert' class='close' type='button'>×</button> {$ErrMsg} - {$ErrFile}: {$ErrLine}</div>";
+    echo "
+    <div class='alert alert-success alert-dismissable'><button aria-hidden='true' data-dismiss='alert' class='close' type='button'>×</button> {$ErrMsg} - {$ErrFile}: {$ErrLine}</div>";
 }
 
 /** Personaliza o gatilho do PHP e salva no banco de dados para ser enviado ao desenvolvedor futuramente

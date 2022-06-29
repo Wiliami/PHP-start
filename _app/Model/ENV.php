@@ -4,6 +4,5 @@ const USER = 'root';
 const PASS = '';
 const DBSA = '';
 
-
-const BASE = 'http://localhost/www.php_start.com';
+const BASE = 'http://localhost/phpstart';
 ?>
