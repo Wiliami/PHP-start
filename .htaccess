@@ -3,5 +3,5 @@
     Options All -Indexes
     RewriteCond %{SCRIPT_FILENAME} !-f
     RewriteCond %{SCRIPT_FILENAME} !-d
-    RewriteRule ^(.*)$ home.php?url=$1
+    RewriteRule ^(.*)$ index.php?url=$1
 </IfModule>
